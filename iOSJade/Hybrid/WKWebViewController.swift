@@ -37,7 +37,8 @@ class WKWebViewController: UIViewController {
             webView.load(URLRequest.init(url: url))
         }
         
-        self.view.addSubview(webView)
+//        self.view.addSubview(webView)
+        self.view.backgroundColor = UIColor.red
         
         let item = UIBarButtonItem(title: "刷新", style: .plain, target: self, action: #selector(refresh))
         self.tabBarController?.navigationItem.rightBarButtonItem = item

@@ -12,11 +12,14 @@ import UIKit
 enum ListData:Int {
     //研发类
     case 打开WebView
+    case 透明导航栏
     
     func toString() -> String {
         switch self {
         case .打开WebView:
             return "打开WebView"
+        case .透明导航栏:
+            return "透明导航栏"
         default:
             return ""
         }
@@ -45,9 +48,12 @@ extension TableViewController {
             
             switch type {
                 case .打开WebView:
-                let webVC = WKWebViewController()
-                webVC.webUrlString = "https://www.baidu.com/"
-                self.navigationController?.pushViewController(webVC, animated: true)
+                    let webVC = WKWebViewController()
+                    webVC.webUrlString = "https://www.baidu.com/"
+                    self.navigationController?.pushViewController(webVC, animated: true)
+                case .透明导航栏:
+                    let vc = QQAppViewController()
+                    self.navigationController?.pushViewController(vc, animated: true)
             }
         }
     }

@@ -16,6 +16,7 @@
 		271E81F421D1DD54009386E8 /* iOSJadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E81F321D1DD54009386E8 /* iOSJadeUITests.swift */; };
 		271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E820221D1DEC7009386E8 /* UINavigationController+Extension.swift */; };
 		271E820721D1DFA2009386E8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E820621D1DFA2009386E8 /* TableViewController.swift */; };
+		271E821421D2570E009386E8 /* QQAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E821321D2570E009386E8 /* QQAppViewController.swift */; };
 		296BA91AA8E3E30691B94E70 /* Pods_iOSJadeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3E03C18985BC4A79974B64 /* Pods_iOSJadeTests.framework */; };
 		305D26898ABEFF139868F84A /* Pods_iOSJadeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92AE205829F6A354EEB5E05 /* Pods_iOSJadeUITests.framework */; };
 		75354DDD22FF126ECAE37142 /* Pods_iOSJade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36F9DB409FDCDDFC7B3D886 /* Pods_iOSJade.framework */; };
@@ -55,6 +56,8 @@
 		271E81F521D1DD54009386E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		271E820221D1DEC7009386E8 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 		271E820621D1DFA2009386E8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		271E820C21D25578009386E8 /* iOSJade-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSJade-Bridging-Header.h"; sourceTree = "<group>"; };
+		271E821321D2570E009386E8 /* QQAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQAppViewController.swift; sourceTree = "<group>"; };
 		31FF6F8570B511DC05EFDAA4 /* Pods-iOSJade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade.debug.xcconfig"; sourceTree = "<group>"; };
 		41B53518075AD6B5B77E0172 /* Pods-iOSJadeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeUITests/Pods-iOSJadeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EA743A8FB15B1DCC2BF4C6B /* Pods-iOSJadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeTests/Pods-iOSJadeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 		271E81D221D1DD53009386E8 /* iOSJade */ = {
 			isa = PBXGroup;
 			children = (
+				271E820B21D2555B009386E8 /* Business */,
 				271E820521D1DF48009386E8 /* Hybrid */,
 				271E820121D1DE96009386E8 /* Extension */,
 				271E81D321D1DD53009386E8 /* AppDelegate.swift */,
@@ -126,6 +130,7 @@
 				271E81DA21D1DD54009386E8 /* Assets.xcassets */,
 				271E81DC21D1DD54009386E8 /* LaunchScreen.storyboard */,
 				271E81DF21D1DD54009386E8 /* Info.plist */,
+				271E820C21D25578009386E8 /* iOSJade-Bridging-Header.h */,
 			);
 			path = iOSJade;
 			sourceTree = "<group>";
@@ -162,6 +167,14 @@
 				271E81D521D1DD53009386E8 /* WKWebViewController.swift */,
 			);
 			path = Hybrid;
+			sourceTree = "<group>";
+		};
+		271E820B21D2555B009386E8 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				271E821321D2570E009386E8 /* QQAppViewController.swift */,
+			);
+			path = Business;
 			sourceTree = "<group>";
 		};
 		4190B8B186652F2A925DFDFC /* Frameworks */ = {
@@ -259,6 +272,7 @@
 				TargetAttributes = {
 					271E81CF21D1DD53009386E8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					271E81E321D1DD54009386E8 = {
 						CreatedOnToolsVersion = 10.1;
@@ -397,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271E821421D2570E009386E8 /* QQAppViewController.swift in Sources */,
 				271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */,
 				271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */,
 				271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */,
@@ -576,11 +591,17 @@
 			baseConfigurationReference = 31FF6F8570B511DC05EFDAA4 /* Pods-iOSJade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJade/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSJade/iOSJade-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -591,11 +612,16 @@
 			baseConfigurationReference = 25BD947C7EE7B7DA01A19B33 /* Pods-iOSJade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJade/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSJade/iOSJade-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -609,7 +635,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -626,7 +656,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -642,7 +676,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -658,7 +696,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

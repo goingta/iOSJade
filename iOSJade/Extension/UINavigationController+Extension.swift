@@ -12,7 +12,7 @@ import UIKit
 
 extension UINavigationController {
     //导航栏背景透明度设置
-    func setNeedsNavigationBackground(alpha: CGFloat) {
+    @objc func setNeedsNavigationBackground(alpha: CGFloat) {
         // 拿到_UIBarBackground
         let barBackgroundView = self.navigationBar.subviews.first
         
@@ -27,6 +27,11 @@ extension UINavigationController {
         } else {
             barBackgroundView?.alpha = alpha
         }
-        self.navigationBar.clipsToBounds = (alpha == 0.0)
+        let isClear = alpha == 0.0
+        self.navigationBar.clipsToBounds = isClear
+        self.navigationBar.tintColor = (isClear ? UIColor.white : UIColor.black)
+        self.navigationBar.titleTextAttributes = [
+            NSAttributedString.Key.foregroundColor: (isClear ? UIColor.white : UIColor.black)
+        ]
     }
 }
