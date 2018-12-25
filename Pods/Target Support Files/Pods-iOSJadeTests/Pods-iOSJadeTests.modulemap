@@ -1,0 +1,6 @@
+framework module Pods_iOSJadeTests {
+  umbrella header "Pods-iOSJadeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

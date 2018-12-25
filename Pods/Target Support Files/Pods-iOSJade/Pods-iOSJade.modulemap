@@ -1,0 +1,6 @@
+framework module Pods_iOSJade {
+  umbrella header "Pods-iOSJade-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E81D321D1DD53009386E8 /* AppDelegate.swift */; };
-		271E81D621D1DD53009386E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E81D521D1DD53009386E8 /* ViewController.swift */; };
+		271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E81D521D1DD53009386E8 /* WKWebViewController.swift */; };
 		271E81D921D1DD53009386E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271E81D721D1DD53009386E8 /* Main.storyboard */; };
 		271E81DB21D1DD54009386E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271E81DA21D1DD54009386E8 /* Assets.xcassets */; };
 		271E81DE21D1DD54009386E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271E81DC21D1DD54009386E8 /* LaunchScreen.storyboard */; };
 		271E81E921D1DD54009386E8 /* iOSJadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E81E821D1DD54009386E8 /* iOSJadeTests.swift */; };
 		271E81F421D1DD54009386E8 /* iOSJadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E81F321D1DD54009386E8 /* iOSJadeUITests.swift */; };
+		271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E820221D1DEC7009386E8 /* UINavigationController+Extension.swift */; };
+		271E820721D1DFA2009386E8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E820621D1DFA2009386E8 /* TableViewController.swift */; };
+		296BA91AA8E3E30691B94E70 /* Pods_iOSJadeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3E03C18985BC4A79974B64 /* Pods_iOSJadeTests.framework */; };
+		305D26898ABEFF139868F84A /* Pods_iOSJadeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92AE205829F6A354EEB5E05 /* Pods_iOSJadeUITests.framework */; };
+		75354DDD22FF126ECAE37142 /* Pods_iOSJade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36F9DB409FDCDDFC7B3D886 /* Pods_iOSJade.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25BD947C7EE7B7DA01A19B33 /* Pods-iOSJade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJade.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade.release.xcconfig"; sourceTree = "<group>"; };
 		271E81D021D1DD53009386E8 /* iOSJade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		271E81D321D1DD53009386E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		271E81D521D1DD53009386E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271E81D521D1DD53009386E8 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		271E81D821D1DD53009386E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		271E81DA21D1DD54009386E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271E81DD21D1DD54009386E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 		271E81EF21D1DD54009386E8 /* iOSJadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSJadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		271E81F321D1DD54009386E8 /* iOSJadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSJadeUITests.swift; sourceTree = "<group>"; };
 		271E81F521D1DD54009386E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271E820221D1DEC7009386E8 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		271E820621D1DFA2009386E8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		31FF6F8570B511DC05EFDAA4 /* Pods-iOSJade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade.debug.xcconfig"; sourceTree = "<group>"; };
+		41B53518075AD6B5B77E0172 /* Pods-iOSJadeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeUITests/Pods-iOSJadeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA743A8FB15B1DCC2BF4C6B /* Pods-iOSJadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeTests/Pods-iOSJadeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FB9709EF6CE6787DEED878B /* Pods-iOSJadeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeTests/Pods-iOSJadeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A67AFD61B9BFAD9C9D2A316B /* Pods-iOSJadeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeUITests/Pods-iOSJadeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B92AE205829F6A354EEB5E05 /* Pods_iOSJadeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSJadeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3E03C18985BC4A79974B64 /* Pods_iOSJadeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSJadeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36F9DB409FDCDDFC7B3D886 /* Pods_iOSJade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSJade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75354DDD22FF126ECAE37142 /* Pods_iOSJade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296BA91AA8E3E30691B94E70 /* Pods_iOSJadeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305D26898ABEFF139868F84A /* Pods_iOSJadeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				271E81E721D1DD54009386E8 /* iOSJadeTests */,
 				271E81F221D1DD54009386E8 /* iOSJadeUITests */,
 				271E81D121D1DD53009386E8 /* Products */,
+				DD356EC19780AD8AB2620A0E /* Pods */,
+				4190B8B186652F2A925DFDFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +118,10 @@
 		271E81D221D1DD53009386E8 /* iOSJade */ = {
 			isa = PBXGroup;
 			children = (
+				271E820521D1DF48009386E8 /* Hybrid */,
+				271E820121D1DE96009386E8 /* Extension */,
 				271E81D321D1DD53009386E8 /* AppDelegate.swift */,
-				271E81D521D1DD53009386E8 /* ViewController.swift */,
+				271E820621D1DFA2009386E8 /* TableViewController.swift */,
 				271E81D721D1DD53009386E8 /* Main.storyboard */,
 				271E81DA21D1DD54009386E8 /* Assets.xcassets */,
 				271E81DC21D1DD54009386E8 /* LaunchScreen.storyboard */,
@@ -125,6 +148,45 @@
 			path = iOSJadeUITests;
 			sourceTree = "<group>";
 		};
+		271E820121D1DE96009386E8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				271E820221D1DEC7009386E8 /* UINavigationController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		271E820521D1DF48009386E8 /* Hybrid */ = {
+			isa = PBXGroup;
+			children = (
+				271E81D521D1DD53009386E8 /* WKWebViewController.swift */,
+			);
+			path = Hybrid;
+			sourceTree = "<group>";
+		};
+		4190B8B186652F2A925DFDFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36F9DB409FDCDDFC7B3D886 /* Pods_iOSJade.framework */,
+				BE3E03C18985BC4A79974B64 /* Pods_iOSJadeTests.framework */,
+				B92AE205829F6A354EEB5E05 /* Pods_iOSJadeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD356EC19780AD8AB2620A0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31FF6F8570B511DC05EFDAA4 /* Pods-iOSJade.debug.xcconfig */,
+				25BD947C7EE7B7DA01A19B33 /* Pods-iOSJade.release.xcconfig */,
+				8FB9709EF6CE6787DEED878B /* Pods-iOSJadeTests.debug.xcconfig */,
+				6EA743A8FB15B1DCC2BF4C6B /* Pods-iOSJadeTests.release.xcconfig */,
+				41B53518075AD6B5B77E0172 /* Pods-iOSJadeUITests.debug.xcconfig */,
+				A67AFD61B9BFAD9C9D2A316B /* Pods-iOSJadeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 271E81F821D1DD54009386E8 /* Build configuration list for PBXNativeTarget "iOSJade" */;
 			buildPhases = (
+				ACEEB6F117B0F4D0AB832E4F /* [CP] Check Pods Manifest.lock */,
 				271E81CC21D1DD53009386E8 /* Sources */,
 				271E81CD21D1DD53009386E8 /* Frameworks */,
 				271E81CE21D1DD53009386E8 /* Resources */,
+				74FA7AAB6F12E4C9F4BCC494 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 271E81FB21D1DD54009386E8 /* Build configuration list for PBXNativeTarget "iOSJadeTests" */;
 			buildPhases = (
+				F7F83358BDB31B804186FAD2 /* [CP] Check Pods Manifest.lock */,
 				271E81E021D1DD54009386E8 /* Sources */,
 				271E81E121D1DD54009386E8 /* Frameworks */,
 				271E81E221D1DD54009386E8 /* Resources */,
@@ -167,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 271E81FE21D1DD54009386E8 /* Build configuration list for PBXNativeTarget "iOSJadeUITests" */;
 			buildPhases = (
+				E741C808D2C4E924A36A2FBA /* [CP] Check Pods Manifest.lock */,
 				271E81EB21D1DD54009386E8 /* Sources */,
 				271E81EC21D1DD54009386E8 /* Frameworks */,
 				271E81ED21D1DD54009386E8 /* Resources */,
@@ -251,13 +317,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74FA7AAB6F12E4C9F4BCC494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-4/iOS/RevealServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACEEB6F117B0F4D0AB832E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSJade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E741C808D2C4E924A36A2FBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSJadeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F83358BDB31B804186FAD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSJadeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		271E81CC21D1DD53009386E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				271E81D621D1DD53009386E8 /* ViewController.swift in Sources */,
+				271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */,
 				271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */,
+				271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */,
+				271E820721D1DFA2009386E8 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +573,12 @@
 		};
 		271E81F921D1DD54009386E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FF6F8570B511DC05EFDAA4 /* Pods-iOSJade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJade/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -447,14 +588,12 @@
 		};
 		271E81FA21D1DD54009386E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BD947C7EE7B7DA01A19B33 /* Pods-iOSJade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJade/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -464,16 +603,13 @@
 		};
 		271E81FC21D1DD54009386E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB9709EF6CE6787DEED878B /* Pods-iOSJadeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -484,16 +620,13 @@
 		};
 		271E81FD21D1DD54009386E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA743A8FB15B1DCC2BF4C6B /* Pods-iOSJadeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -504,15 +637,12 @@
 		};
 		271E81FF21D1DD54009386E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B53518075AD6B5B77E0172 /* Pods-iOSJadeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -523,15 +653,12 @@
 		};
 		271E820021D1DD54009386E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67AFD61B9BFAD9C9D2A316B /* Pods-iOSJadeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSJadeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJadeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
