@@ -10,7 +10,7 @@ import Foundation
 
 import UIKit
 
-extension UINavigationController {
+extension UINavigationController {    
     //导航栏背景透明度设置
     @objc func setNeedsNavigationBackground(alpha: CGFloat) {
         // 拿到_UIBarBackground

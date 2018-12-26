@@ -17,6 +17,7 @@
 		271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E820221D1DEC7009386E8 /* UINavigationController+Extension.swift */; };
 		271E820721D1DFA2009386E8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E820621D1DFA2009386E8 /* TableViewController.swift */; };
 		271E821421D2570E009386E8 /* QQAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E821321D2570E009386E8 /* QQAppViewController.swift */; };
+		271E821C21D335F0009386E8 /* GTANavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E821B21D335EF009386E8 /* GTANavigationBar.swift */; };
 		296BA91AA8E3E30691B94E70 /* Pods_iOSJadeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3E03C18985BC4A79974B64 /* Pods_iOSJadeTests.framework */; };
 		305D26898ABEFF139868F84A /* Pods_iOSJadeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92AE205829F6A354EEB5E05 /* Pods_iOSJadeUITests.framework */; };
 		75354DDD22FF126ECAE37142 /* Pods_iOSJade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36F9DB409FDCDDFC7B3D886 /* Pods_iOSJade.framework */; };
@@ -58,6 +59,7 @@
 		271E820621D1DFA2009386E8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		271E820C21D25578009386E8 /* iOSJade-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSJade-Bridging-Header.h"; sourceTree = "<group>"; };
 		271E821321D2570E009386E8 /* QQAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQAppViewController.swift; sourceTree = "<group>"; };
+		271E821B21D335EF009386E8 /* GTANavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTANavigationBar.swift; sourceTree = "<group>"; };
 		31FF6F8570B511DC05EFDAA4 /* Pods-iOSJade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade.debug.xcconfig"; sourceTree = "<group>"; };
 		41B53518075AD6B5B77E0172 /* Pods-iOSJadeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeUITests/Pods-iOSJadeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EA743A8FB15B1DCC2BF4C6B /* Pods-iOSJadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeTests/Pods-iOSJadeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		271E820121D1DE96009386E8 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				271E821B21D335EF009386E8 /* GTANavigationBar.swift */,
 				271E820221D1DEC7009386E8 /* UINavigationController+Extension.swift */,
 			);
 			path = Extension;
@@ -415,6 +418,7 @@
 				271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */,
 				271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */,
 				271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */,
+				271E821C21D335F0009386E8 /* GTANavigationBar.swift in Sources */,
 				271E820721D1DFA2009386E8 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
