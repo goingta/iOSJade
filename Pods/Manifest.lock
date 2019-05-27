@@ -1,16 +1,20 @@
 PODS:
+  - Alamofire (4.8.0)
   - Reveal-SDK (4)
 
 DEPENDENCIES:
+  - Alamofire
   - Reveal-SDK (= 4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - Reveal-SDK
 
 SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   Reveal-SDK: 178c927f1a3230648d3a92b96f6e730a35b2750a
 
-PODFILE CHECKSUM: 0a532297020731d8037c875dc4dc1e5522ab796b
+PODFILE CHECKSUM: 08850d4609f5c9e5d7911862e037889ab1fe43d2
 
 COCOAPODS: 1.5.0

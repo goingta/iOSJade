@@ -6,6 +6,7 @@ target 'iOSJade' do
   use_frameworks!
   #MARK: -- 测试使用
   pod "Reveal-SDK","4", :configurations => ["Debug"]
+  pod "Alamofire"
   # Pods for iOSJade
 
   target 'iOSJadeTests' do

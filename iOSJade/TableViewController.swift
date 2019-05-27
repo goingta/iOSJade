@@ -13,6 +13,8 @@ enum ListData:Int {
     //研发类
     case 打开WebView
     case 透明导航栏
+    case 网络请求
+    case CALayer相关
     
     func toString() -> String {
         switch self {
@@ -20,6 +22,10 @@ enum ListData:Int {
             return "打开WebView"
         case .透明导航栏:
             return "透明导航栏"
+        case .网络请求:
+            return "网络请求"
+        case .CALayer相关:
+            return "CALayer相关"
         default:
             return ""
         }
@@ -40,6 +46,8 @@ class TableViewController: UITableViewController {
         tableView.tableFooterView = UIView()
         self.title = "首页"
         navBarBarTintColor = UIColor.init(red: 0/255.0, green: 175/255.0, blue: 240/255.0, alpha: 1)
+        self.view.backgroundColor = UIColor.init(red: 0/255.0, green: 175/255.0, blue: 240/255.0, alpha: 1)
+        navBarBackgroundAlpha = 0
     }
 }
 
@@ -56,6 +64,12 @@ extension TableViewController {
                 case .透明导航栏:
                     let vc = QQAppViewController()
                     self.navigationController?.pushViewController(vc, animated: true)
+            case .网络请求:
+                let vc = NetworkViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
+            case .CALayer相关:
+                let vc = CALayerViewContoller()
+                self.navigationController?.pushViewController(vc, animated: true)
             }
         }
     }

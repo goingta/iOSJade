@@ -28,6 +28,17 @@ class QQAppViewController: UIViewController {
         navBarBackgroundAlpha = 0
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.navigationController?.navigationBar.isUserInteractionEnabled = false
+        print("isUserInteractionEnabled: \(self.navigationController?.navigationBar.isUserInteractionEnabled)")
+        DispatchQueue.main.asyncAfter(deadline: .now()+0.1) {
+            print("asyncAfter")
+            self.navigationController?.navigationBar.isUserInteractionEnabled = false
+            print("isUserInteractionEnabled: \(self.navigationController?.navigationBar.isUserInteractionEnabled)")
+        }
+    }
+    
     func initUI() {
         imgView = UIImageView.init(frame: CGRect(x: 0, y: -IMG_HEIGHT, width: self.view.frame.size.width, height: IMG_HEIGHT))
         imgView.contentMode = .scaleAspectFill
@@ -54,6 +65,13 @@ class QQAppViewController: UIViewController {
 }
 
 extension QQAppViewController: UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = UIViewController()
+        vc.view.backgroundColor = UIColor.blue
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 60
     }
@@ -64,42 +82,42 @@ extension QQAppViewController: UITableViewDelegate, UITableViewDataSource, UIScr
         return cell
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let offsetY = scrollView.contentOffset.y
-        
-        if (offsetY > NAVBAR_COLORCHANGE_POINT) {
-            changeNavBarAnimateWithIsClear(isClear: false)
-        } else {
-            changeNavBarAnimateWithIsClear(isClear: true)
-        }
-        
-        // 限制下拉距离
-        if (offsetY < LIMIT_OFFSET_Y) {
-            scrollView.contentOffset = CGPoint.init(x: 0, y: LIMIT_OFFSET_Y)
-        }
-        
-        // 改变图片框的大小 (上滑的时候不改变)
-        // 这里不能使用offsetY，因为当（offsetY < LIMIT_OFFSET_Y）的时候，y = LIMIT_OFFSET_Y 不等于 offsetY
-        let newOffsetY = scrollView.contentOffset.y
-        if (newOffsetY < -IMG_HEIGHT)
-        {
-            imgView.frame = CGRect(x: 0, y: newOffsetY, width: self.view.frame.size.width, height: -newOffsetY)
-        }
-    }
-    
-    // private
-    private func changeNavBarAnimateWithIsClear(isClear:Bool)
-    {
-        UIView.animate(withDuration: 0.8, animations: { [weak self] in
-            if let weakSelf = self
-            {
-                if (isClear == true) {
-                    weakSelf.navBarBackgroundAlpha = 0
-                }
-                else {
-                    weakSelf.navBarBackgroundAlpha = 1.0
-                }
-            }
-        })
-    }
+//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        let offsetY = scrollView.contentOffset.y
+//
+//        if (offsetY > NAVBAR_COLORCHANGE_POINT) {
+//            changeNavBarAnimateWithIsClear(isClear: false)
+//        } else {
+//            changeNavBarAnimateWithIsClear(isClear: true)
+//        }
+//
+//        // 限制下拉距离
+//        if (offsetY < LIMIT_OFFSET_Y) {
+//            scrollView.contentOffset = CGPoint.init(x: 0, y: LIMIT_OFFSET_Y)
+//        }
+//
+//        // 改变图片框的大小 (上滑的时候不改变)
+//        // 这里不能使用offsetY，因为当（offsetY < LIMIT_OFFSET_Y）的时候，y = LIMIT_OFFSET_Y 不等于 offsetY
+//        let newOffsetY = scrollView.contentOffset.y
+//        if (newOffsetY < -IMG_HEIGHT)
+//        {
+//            imgView.frame = CGRect(x: 0, y: newOffsetY, width: self.view.frame.size.width, height: -newOffsetY)
+//        }
+//    }
+//
+//    // private
+//    private func changeNavBarAnimateWithIsClear(isClear:Bool)
+//    {
+//        UIView.animate(withDuration: 0.8, animations: { [weak self] in
+//            if let weakSelf = self
+//            {
+//                if (isClear == true) {
+//                    weakSelf.navBarBackgroundAlpha = 0
+//                }
+//                else {
+//                    weakSelf.navBarBackgroundAlpha = 1.0
+//                }
+//            }
+//        })
+//    }
 }
