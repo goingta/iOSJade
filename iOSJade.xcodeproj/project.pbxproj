@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270BCF4B229D23C7008F47C2 /* MObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BCF4A229D23C7008F47C2 /* MObject.swift */; };
+		270BCF54229D35FD008F47C2 /* RuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 270BCF53229D35FD008F47C2 /* RuntimeObject.m */; };
 		2716B5A3229BDF4C00EE27BC /* CALayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2716B5A2229BDF4C00EE27BC /* CALayerViewController.swift */; };
 		271A4B95229BC08E00C1AD2E /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271A4B94229BC08E00C1AD2E /* NetworkViewController.swift */; };
 		271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E81D321D1DD53009386E8 /* AppDelegate.swift */; };
@@ -45,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		25BD947C7EE7B7DA01A19B33 /* Pods-iOSJade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJade.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade.release.xcconfig"; sourceTree = "<group>"; };
+		270BCF4A229D23C7008F47C2 /* MObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MObject.swift; sourceTree = "<group>"; };
+		270BCF52229D35FD008F47C2 /* RuntimeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeObject.h; sourceTree = "<group>"; };
+		270BCF53229D35FD008F47C2 /* RuntimeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeObject.m; sourceTree = "<group>"; };
 		2716B5A2229BDF4C00EE27BC /* CALayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerViewController.swift; sourceTree = "<group>"; };
 		271A4B94229BC08E00C1AD2E /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		271E81D021D1DD53009386E8 /* iOSJade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJade.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270BCF49229D2293008F47C2 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				270BCF4A229D23C7008F47C2 /* MObject.swift */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		270BCF4C229D35A0008F47C2 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				270BCF52229D35FD008F47C2 /* RuntimeObject.h */,
+				270BCF53229D35FD008F47C2 /* RuntimeObject.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
 		271A4B93229BC07B00C1AD2E /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +158,8 @@
 		271E81D221D1DD53009386E8 /* iOSJade */ = {
 			isa = PBXGroup;
 			children = (
+				270BCF4C229D35A0008F47C2 /* Runtime */,
+				270BCF49229D2293008F47C2 /* KVO */,
 				271A4B93229BC07B00C1AD2E /* Network */,
 				271E820B21D2555B009386E8 /* Business */,
 				271E820521D1DF48009386E8 /* Hybrid */,
@@ -435,6 +459,8 @@
 			files = (
 				271E821421D2570E009386E8 /* QQAppViewController.swift in Sources */,
 				271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */,
+				270BCF54229D35FD008F47C2 /* RuntimeObject.m in Sources */,
+				270BCF4B229D23C7008F47C2 /* MObject.swift in Sources */,
 				271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */,
 				271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */,
 				271E821C21D335F0009386E8 /* GTANavigationBar.swift in Sources */,
