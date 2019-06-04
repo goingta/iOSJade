@@ -21,6 +21,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //runtime
         let runtime = RuntimeObject()
         runtime.test()
+        runtime.superTest();
+        
+//        DispatchQueue.main.async {
+//            print("goingta")
+//        }
+        
+        print("1")
+        DispatchQueue.global().sync {
+            print("2")
+            DispatchQueue.global().sync {
+                print("3")
+            }
+            print("4")
+        }
+        print("5")
         return true
     }
 

@@ -1,19 +1,20 @@
 //
-//  RuntimeObject.h
+//  RuntimeSuperObject.h
 //  iOSJade
 //
-//  Created by goingta on 2019/5/28.
+//  Created by goingta on 2019/6/4.
 //  Copyright © 2019 goingta. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "RuntimeSuperObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RuntimeObject : RuntimeSuperObject
+@interface RuntimeSuperObject : NSObject
 
 - (void)test;
+
+- (void)superTest;
 
 @end
 
