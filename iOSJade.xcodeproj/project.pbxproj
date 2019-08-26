@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,7 +23,23 @@
 		271E821421D2570E009386E8 /* QQAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E821321D2570E009386E8 /* QQAppViewController.swift */; };
 		271E821C21D335F0009386E8 /* GTANavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E821B21D335EF009386E8 /* GTANavigationBar.swift */; };
 		271E822821D7796D009386E8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E822721D7796D009386E8 /* TabBarViewController.swift */; };
+		272291B122AD20A900AEF31F /* CustomOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272291AF22AD20A900AEF31F /* CustomOperation.swift */; };
+		272291B222AD20A900AEF31F /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272291B022AD20A900AEF31F /* Thread.swift */; };
+		272291B522AE301500AEF31F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272291B422AE301500AEF31F /* TestViewController.m */; };
+		272291C322AE48A400AEF31F /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 272291C222AE48A400AEF31F /* TestObj.m */; };
+		272291CF22AE4A9700AEF31F /* ObjcA.m in Sources */ = {isa = PBXBuildFile; fileRef = 272291CE22AE4A9700AEF31F /* ObjcA.m */; };
+		272291D222AE4B6C00AEF31F /* ModelB.m in Sources */ = {isa = PBXBuildFile; fileRef = 272291D122AE4B6C00AEF31F /* ModelB.m */; };
+		273794B322F986EF00FE96CD /* SkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273794B222F986EF00FE96CD /* SkeletonViewController.swift */; };
+		273794B722F98A4E00FE96CD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273794B622F98A4E00FE96CD /* CollectionViewCell.swift */; };
+		27488BF62313ADBC0093D8C5 /* GTTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488BF52313ADBC0093D8C5 /* GTTimingFunction.swift */; };
+		278E852B22FA761E00484CF6 /* SkeletonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852A22FA761E00484CF6 /* SkeletonTableViewController.swift */; };
+		278E852D22FA768D00484CF6 /* CustomCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852C22FA768D00484CF6 /* CustomCell1.swift */; };
+		278E852F22FA76B500484CF6 /* HeaderVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852E22FA76B500484CF6 /* HeaderVeiw.swift */; };
+		278E853122FA7C7000484CF6 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278E853022FA7C7000484CF6 /* CustomCell.xib */; };
+		278E853322FA7C8A00484CF6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E853222FA7C8A00484CF6 /* CustomCell.swift */; };
 		27FE058022A627B900DD9239 /* RuntimeSuperObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE057F22A627B900DD9239 /* RuntimeSuperObject.m */; };
+		27FE058422A62F8200DD9239 /* RunloopObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE058322A62F8200DD9239 /* RunloopObject.m */; };
+		27FE058722A6310200DD9239 /* GCDDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE058622A6310200DD9239 /* GCDDemo.swift */; };
 		296BA91AA8E3E30691B94E70 /* Pods_iOSJadeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3E03C18985BC4A79974B64 /* Pods_iOSJadeTests.framework */; };
 		305D26898ABEFF139868F84A /* Pods_iOSJadeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92AE205829F6A354EEB5E05 /* Pods_iOSJadeUITests.framework */; };
 		75354DDD22FF126ECAE37142 /* Pods_iOSJade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36F9DB409FDCDDFC7B3D886 /* Pods_iOSJade.framework */; };
@@ -72,8 +88,29 @@
 		271E821321D2570E009386E8 /* QQAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQAppViewController.swift; sourceTree = "<group>"; };
 		271E821B21D335EF009386E8 /* GTANavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTANavigationBar.swift; sourceTree = "<group>"; };
 		271E822721D7796D009386E8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		272291AF22AD20A900AEF31F /* CustomOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOperation.swift; sourceTree = "<group>"; };
+		272291B022AD20A900AEF31F /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		272291B322AE301500AEF31F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		272291B422AE301500AEF31F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		272291C122AE48A400AEF31F /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		272291C222AE48A400AEF31F /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		272291CD22AE4A9700AEF31F /* ObjcA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcA.h; sourceTree = "<group>"; };
+		272291CE22AE4A9700AEF31F /* ObjcA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcA.m; sourceTree = "<group>"; };
+		272291D022AE4B6C00AEF31F /* ModelB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelB.h; sourceTree = "<group>"; };
+		272291D122AE4B6C00AEF31F /* ModelB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelB.m; sourceTree = "<group>"; };
+		273794B222F986EF00FE96CD /* SkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonViewController.swift; sourceTree = "<group>"; };
+		273794B622F98A4E00FE96CD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		27488BF52313ADBC0093D8C5 /* GTTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTimingFunction.swift; sourceTree = "<group>"; };
+		278E852A22FA761E00484CF6 /* SkeletonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTableViewController.swift; sourceTree = "<group>"; };
+		278E852C22FA768D00484CF6 /* CustomCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell1.swift; sourceTree = "<group>"; };
+		278E852E22FA76B500484CF6 /* HeaderVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVeiw.swift; sourceTree = "<group>"; };
+		278E853022FA7C7000484CF6 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		278E853222FA7C8A00484CF6 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		27FE057E22A627B900DD9239 /* RuntimeSuperObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeSuperObject.h; sourceTree = "<group>"; };
 		27FE057F22A627B900DD9239 /* RuntimeSuperObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeSuperObject.m; sourceTree = "<group>"; };
+		27FE058222A62F8200DD9239 /* RunloopObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopObject.h; sourceTree = "<group>"; };
+		27FE058322A62F8200DD9239 /* RunloopObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopObject.m; sourceTree = "<group>"; };
+		27FE058622A6310200DD9239 /* GCDDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDDemo.swift; sourceTree = "<group>"; };
 		31FF6F8570B511DC05EFDAA4 /* Pods-iOSJade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade.debug.xcconfig"; sourceTree = "<group>"; };
 		41B53518075AD6B5B77E0172 /* Pods-iOSJadeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeUITests/Pods-iOSJadeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EA743A8FB15B1DCC2BF4C6B /* Pods-iOSJadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSJadeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSJadeTests/Pods-iOSJadeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +200,10 @@
 		271E81D221D1DD53009386E8 /* iOSJade */ = {
 			isa = PBXGroup;
 			children = (
+				27488BF42313ADAB0093D8C5 /* Animation */,
+				273794B122F986D700FE96CD /* VC */,
+				27FE058522A630E000DD9239 /* Thread */,
+				27FE058122A62F5F00DD9239 /* Runloop */,
 				270BCF4C229D35A0008F47C2 /* Runtime */,
 				270BCF49229D2293008F47C2 /* KVO */,
 				271A4B93229BC07B00C1AD2E /* Network */,
@@ -222,8 +263,65 @@
 				271E821321D2570E009386E8 /* QQAppViewController.swift */,
 				271A4B94229BC08E00C1AD2E /* NetworkViewController.swift */,
 				2716B5A2229BDF4C00EE27BC /* CALayerViewController.swift */,
+				272291B322AE301500AEF31F /* TestViewController.h */,
+				272291B422AE301500AEF31F /* TestViewController.m */,
+				272291C122AE48A400AEF31F /* TestObj.h */,
+				272291C222AE48A400AEF31F /* TestObj.m */,
+				272291CD22AE4A9700AEF31F /* ObjcA.h */,
+				272291CE22AE4A9700AEF31F /* ObjcA.m */,
+				272291D022AE4B6C00AEF31F /* ModelB.h */,
+				272291D122AE4B6C00AEF31F /* ModelB.m */,
 			);
 			path = Business;
+			sourceTree = "<group>";
+		};
+		273794B122F986D700FE96CD /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				273794B522F98A3200FE96CD /* Skeleton */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		273794B522F98A3200FE96CD /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				278E853222FA7C8A00484CF6 /* CustomCell.swift */,
+				278E853022FA7C7000484CF6 /* CustomCell.xib */,
+				273794B222F986EF00FE96CD /* SkeletonViewController.swift */,
+				273794B622F98A4E00FE96CD /* CollectionViewCell.swift */,
+				278E852A22FA761E00484CF6 /* SkeletonTableViewController.swift */,
+				278E852C22FA768D00484CF6 /* CustomCell1.swift */,
+				278E852E22FA76B500484CF6 /* HeaderVeiw.swift */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		27488BF42313ADAB0093D8C5 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				27488BF52313ADBC0093D8C5 /* GTTimingFunction.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		27FE058122A62F5F00DD9239 /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				27FE058222A62F8200DD9239 /* RunloopObject.h */,
+				27FE058322A62F8200DD9239 /* RunloopObject.m */,
+			);
+			path = Runloop;
+			sourceTree = "<group>";
+		};
+		27FE058522A630E000DD9239 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				272291AF22AD20A900AEF31F /* CustomOperation.swift */,
+				272291B022AD20A900AEF31F /* Thread.swift */,
+				27FE058622A6310200DD9239 /* GCDDemo.swift */,
+			);
+			path = Thread;
 			sourceTree = "<group>";
 		};
 		4190B8B186652F2A925DFDFC /* Frameworks */ = {
@@ -360,6 +458,7 @@
 			files = (
 				271E81DE21D1DD54009386E8 /* LaunchScreen.storyboard in Resources */,
 				271E81DB21D1DD54009386E8 /* Assets.xcassets in Resources */,
+				278E853122FA7C7000484CF6 /* CustomCell.xib in Resources */,
 				271E81D921D1DD53009386E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,19 +485,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${PODS_ROOT}/Reveal-SDK/RevealServer-4/iOS/RevealServer.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ACEEB6F117B0F4D0AB832E4F /* [CP] Check Pods Manifest.lock */ = {
@@ -462,18 +558,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272291B122AD20A900AEF31F /* CustomOperation.swift in Sources */,
 				271E821421D2570E009386E8 /* QQAppViewController.swift in Sources */,
+				272291D222AE4B6C00AEF31F /* ModelB.m in Sources */,
+				278E852F22FA76B500484CF6 /* HeaderVeiw.swift in Sources */,
 				271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */,
 				270BCF54229D35FD008F47C2 /* RuntimeObject.m in Sources */,
 				270BCF4B229D23C7008F47C2 /* MObject.swift in Sources */,
 				271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */,
+				272291C322AE48A400AEF31F /* TestObj.m in Sources */,
 				27FE058022A627B900DD9239 /* RuntimeSuperObject.m in Sources */,
 				271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */,
+				273794B722F98A4E00FE96CD /* CollectionViewCell.swift in Sources */,
 				271E821C21D335F0009386E8 /* GTANavigationBar.swift in Sources */,
+				272291CF22AE4A9700AEF31F /* ObjcA.m in Sources */,
+				278E853322FA7C8A00484CF6 /* CustomCell.swift in Sources */,
 				271E820721D1DFA2009386E8 /* TableViewController.swift in Sources */,
 				271E822821D7796D009386E8 /* TabBarViewController.swift in Sources */,
+				27488BF62313ADBC0093D8C5 /* GTTimingFunction.swift in Sources */,
 				271A4B95229BC08E00C1AD2E /* NetworkViewController.swift in Sources */,
+				272291B522AE301500AEF31F /* TestViewController.m in Sources */,
+				278E852B22FA761E00484CF6 /* SkeletonTableViewController.swift in Sources */,
+				27FE058722A6310200DD9239 /* GCDDemo.swift in Sources */,
+				27FE058422A62F8200DD9239 /* RunloopObject.m in Sources */,
 				2716B5A3229BDF4C00EE27BC /* CALayerViewController.swift in Sources */,
+				272291B222AD20A900AEF31F /* Thread.swift in Sources */,
+				278E852D22FA768D00484CF6 /* CustomCell1.swift in Sources */,
+				273794B322F986EF00FE96CD /* SkeletonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +762,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLCB8QSMBL;
 				INFOPLIST_FILE = iOSJade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -660,7 +772,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSJade/iOSJade-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -672,6 +784,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLCB8QSMBL;
 				INFOPLIST_FILE = iOSJade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -680,7 +793,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSJade/iOSJade-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

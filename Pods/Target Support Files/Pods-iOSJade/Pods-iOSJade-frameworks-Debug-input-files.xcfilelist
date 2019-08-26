@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSJade/Pods-iOSJade-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${PODS_ROOT}/Reveal-SDK/RevealServer-4/iOS/RevealServer.framework
+${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework

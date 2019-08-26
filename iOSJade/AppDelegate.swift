@@ -19,23 +19,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setNavBarAppearence()
         
         //runtime
-        let runtime = RuntimeObject()
-        runtime.test()
-        runtime.superTest();
+//        let runtime = RuntimeObject()
+//        runtime.test()
+//        runtime.superTest();
         
-//        DispatchQueue.main.async {
-//            print("goingta")
-//        }
+        //runloop
+//        let runloopObj = RunloopObject()
+//        runloopObj.clock()
         
-        print("1")
-        DispatchQueue.global().sync {
-            print("2")
-            DispatchQueue.global().sync {
-                print("3")
-            }
-            print("4")
-        }
-        print("5")
+        //Thread
+//        let gcd = GCDDemo()
+        
+        
         return true
     }
 

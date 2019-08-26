@@ -7,6 +7,8 @@ target 'iOSJade' do
   #MARK: -- 测试使用
   pod "Reveal-SDK","4", :configurations => ["Debug"]
   pod "Alamofire"
+  pod 'SkeletonView'
+  pod 'Then'
   # Pods for iOSJade
 
   target 'iOSJadeTests' do

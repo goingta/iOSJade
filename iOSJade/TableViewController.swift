@@ -15,6 +15,8 @@ enum ListData:Int {
     case 透明导航栏
     case 网络请求
     case CALayer相关
+    case 测试循环引用
+    case 骨骼图
     
     func toString() -> String {
         switch self {
@@ -26,6 +28,10 @@ enum ListData:Int {
             return "网络请求"
         case .CALayer相关:
             return "CALayer相关"
+        case .测试循环引用:
+            return "测试循环引用"
+        case .骨骼图:
+            return "骨骼图"
         default:
             return ""
         }
@@ -64,12 +70,18 @@ extension TableViewController {
                 case .透明导航栏:
                     let vc = QQAppViewController()
                     self.navigationController?.pushViewController(vc, animated: true)
-            case .网络请求:
-                let vc = NetworkViewController()
-                self.navigationController?.pushViewController(vc, animated: true)
-            case .CALayer相关:
-                let vc = CALayerViewContoller()
-                self.navigationController?.pushViewController(vc, animated: true)
+                case .网络请求:
+                    let vc = NetworkViewController()
+                    self.navigationController?.pushViewController(vc, animated: true)
+                case .CALayer相关:
+                    let vc = CALayerViewContoller()
+                    self.navigationController?.pushViewController(vc, animated: true)
+                case .测试循环引用:
+                    let vc = TestViewController()
+                    self.navigationController?.pushViewController(vc, animated: true)
+                case .骨骼图:
+                    let vc = SkeletonTableViewController()
+                    self.navigationController?.pushViewController(vc, animated: true)
             }
         }
     }

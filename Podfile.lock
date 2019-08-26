@@ -1,20 +1,28 @@
 PODS:
   - Alamofire (4.8.0)
   - Reveal-SDK (4)
+  - SkeletonView (1.7)
+  - Then (2.5.0)
 
 DEPENDENCIES:
   - Alamofire
   - Reveal-SDK (= 4)
+  - SkeletonView
+  - Then
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Reveal-SDK
+    - SkeletonView
+    - Then
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   Reveal-SDK: 178c927f1a3230648d3a92b96f6e730a35b2750a
+  SkeletonView: 7d7378731b708f8a6e6b1ffefb68cc3903f10a03
+  Then: 0157115e883545c77967b452fe74a1d25fb796e1
 
-PODFILE CHECKSUM: 08850d4609f5c9e5d7911862e037889ab1fe43d2
+PODFILE CHECKSUM: e8a7db15e985891aa011d20ae1424f5fa4a05aa7
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.7.5
