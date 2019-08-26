@@ -43,6 +43,9 @@
 		27488C0B2313BFA50093D8C5 /* GTShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C0A2313BFA50093D8C5 /* GTShareCell.swift */; };
 		27488C112313CC850093D8C5 /* ATPlayerLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 27488C0E2313CC850093D8C5 /* ATPlayerLoading.m */; };
 		27488C122313CC850093D8C5 /* ATPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27488C102313CC850093D8C5 /* ATPlayerControlView.m */; };
+		27488C142313CCE70093D8C5 /* GTPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C132313CCE70093D8C5 /* GTPaddingLabel.swift */; };
+		27488C172313CD350093D8C5 /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C162313CD350093D8C5 /* CircularCollectionViewLayout.swift */; };
+		27488C192313CD5D0093D8C5 /* GTCoverFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C182313CD5D0093D8C5 /* GTCoverFlowLayout.swift */; };
 		278E852B22FA761E00484CF6 /* SkeletonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852A22FA761E00484CF6 /* SkeletonTableViewController.swift */; };
 		278E852D22FA768D00484CF6 /* CustomCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852C22FA768D00484CF6 /* CustomCell1.swift */; };
 		278E852F22FA76B500484CF6 /* HeaderVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852E22FA76B500484CF6 /* HeaderVeiw.swift */; };
@@ -125,6 +128,9 @@
 		27488C0E2313CC850093D8C5 /* ATPlayerLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATPlayerLoading.m; sourceTree = "<group>"; };
 		27488C0F2313CC850093D8C5 /* ATPlayerLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATPlayerLoading.h; sourceTree = "<group>"; };
 		27488C102313CC850093D8C5 /* ATPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATPlayerControlView.m; sourceTree = "<group>"; };
+		27488C132313CCE70093D8C5 /* GTPaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTPaddingLabel.swift; sourceTree = "<group>"; };
+		27488C162313CD350093D8C5 /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
+		27488C182313CD5D0093D8C5 /* GTCoverFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTCoverFlowLayout.swift; sourceTree = "<group>"; };
 		278E852A22FA761E00484CF6 /* SkeletonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTableViewController.swift; sourceTree = "<group>"; };
 		278E852C22FA768D00484CF6 /* CustomCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell1.swift; sourceTree = "<group>"; };
 		278E852E22FA76B500484CF6 /* HeaderVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVeiw.swift; sourceTree = "<group>"; };
@@ -224,6 +230,7 @@
 		271E81D221D1DD53009386E8 /* iOSJade */ = {
 			isa = PBXGroup;
 			children = (
+				27488C152313CD220093D8C5 /* Layout */,
 				27488C0C2313CC660093D8C5 /* PlayerControl */,
 				27488C032313BE9E0093D8C5 /* Helper */,
 				27488BFC2313BC620093D8C5 /* Common */,
@@ -350,6 +357,7 @@
 				27488BFD2313BC810093D8C5 /* GTUIConfig.swift */,
 				27488BFF2313BCDA0093D8C5 /* GTPopup.swift */,
 				27488C012313BD1C0093D8C5 /* GTVerticalLabel.swift */,
+				27488C132313CCE70093D8C5 /* GTPaddingLabel.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -372,6 +380,15 @@
 				27488C0E2313CC850093D8C5 /* ATPlayerLoading.m */,
 			);
 			path = PlayerControl;
+			sourceTree = "<group>";
+		};
+		27488C152313CD220093D8C5 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				27488C162313CD350093D8C5 /* CircularCollectionViewLayout.swift */,
+				27488C182313CD5D0093D8C5 /* GTCoverFlowLayout.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 		27FE058122A62F5F00DD9239 /* Runloop */ = {
@@ -650,10 +667,12 @@
 				272291D222AE4B6C00AEF31F /* ModelB.m in Sources */,
 				27488C052313BEBC0093D8C5 /* UIColor+Extension.swift in Sources */,
 				27488C122313CC850093D8C5 /* ATPlayerControlView.m in Sources */,
+				27488C172313CD350093D8C5 /* CircularCollectionViewLayout.swift in Sources */,
 				278E852F22FA76B500484CF6 /* HeaderVeiw.swift in Sources */,
 				271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */,
 				27488C022313BD1C0093D8C5 /* GTVerticalLabel.swift in Sources */,
 				270BCF54229D35FD008F47C2 /* RuntimeObject.m in Sources */,
+				27488C142313CCE70093D8C5 /* GTPaddingLabel.swift in Sources */,
 				270BCF4B229D23C7008F47C2 /* MObject.swift in Sources */,
 				271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */,
 				27488BFE2313BC810093D8C5 /* GTUIConfig.swift in Sources */,
@@ -674,6 +693,7 @@
 				272291B522AE301500AEF31F /* TestViewController.m in Sources */,
 				278E852B22FA761E00484CF6 /* SkeletonTableViewController.swift in Sources */,
 				27FE058722A6310200DD9239 /* GCDDemo.swift in Sources */,
+				27488C192313CD5D0093D8C5 /* GTCoverFlowLayout.swift in Sources */,
 				27488C112313CC850093D8C5 /* ATPlayerLoading.m in Sources */,
 				27488BF92313B85E0093D8C5 /* GTShareConfig.swift in Sources */,
 				27FE058422A62F8200DD9239 /* RunloopObject.m in Sources */,
