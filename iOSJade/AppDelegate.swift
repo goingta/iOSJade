@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Thread
 //        let gcd = GCDDemo()
         
-        
+        self.registerShareSDK()
         return true
     }
 
@@ -68,6 +68,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        GTANavigationBar.defaultStatusBarStyle = .lightContent
         // 如果需要设置导航栏底部分割线隐藏，可以在这里统一设置
         GTANavigationBar.defaultShadowImageHidden = true
+    }
+    
+    
+    func registerShareSDK() {
+        ShareSDK.registPlatforms { (platformsRegister) in
+            //QQ
+            platformsRegister?.setupQQ(withAppId: GTShareConfig.qqAppId, appkey: GTShareConfig.qqAppKey)
+            //微信
+            platformsRegister?.setupWeChat(withAppId: GTShareConfig.wechatAppId, appSecret: GTShareConfig.wechatAppSecret)
+            //微博
+            platformsRegister?.setupSinaWeibo(withAppkey: GTShareConfig.weiboAppKey, appSecret: GTShareConfig.weiboAppSecret, redirectUrl: "https://www.goingta.cn")
+            //抖音
+            platformsRegister?.setupDouyin(byAppKey: GTShareConfig.douyinAppKey, appSecret: GTShareConfig.douyinAppSecret)
+        }
     }
 
 }

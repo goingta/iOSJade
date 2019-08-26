@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 enum ListData:Int {
     //研发类
     case 打开WebView
@@ -17,6 +18,8 @@ enum ListData:Int {
     case CALayer相关
     case 测试循环引用
     case 骨骼图
+    case 自定义UI分享
+    case 自带UI分享
     
     func toString() -> String {
         switch self {
@@ -32,6 +35,10 @@ enum ListData:Int {
             return "测试循环引用"
         case .骨骼图:
             return "骨骼图"
+        case .自定义UI分享:
+            return "自定义UI分享"
+        case .自带UI分享:
+            return "自带UI分享"
         default:
             return ""
         }
@@ -82,6 +89,58 @@ extension TableViewController {
                 case .骨骼图:
                     let vc = SkeletonTableViewController()
                     self.navigationController?.pushViewController(vc, animated: true)
+                case .自定义UI分享:
+                    let title = "来自GTShare"
+                    let text = "GTShare"
+//                    let image = UIImage(named: "headerBg")
+                    let thumbImage = UIImage(named: "headerBg")
+                    let url = URL.init(string: "http://www.goingta.cn")
+                    let shareParams = NSMutableDictionary()
+                    
+                    
+                    //通用
+                    shareParams.ssdkSetupShareParams(byText: text, images: thumbImage, url: url, title: title, type: .auto)
+                    //微信
+                    //                shareParams.ssdkSetupWeChatParams(byText: text, title: title, url: videoPath, thumbImage: thumbImage, image: image, musicFileURL: nil, extInfo: nil, fileData: nil, emoticonData: nil, sourceFileExtension: "mp4", sourceFileData: nil, type: .video, forPlatformSubType: .subTypeWechatSession)
+                    //QQ
+                    //                shareParams.ssdkSetupQQParams(byText: text, title: title, url: videoPath, audioFlash: nil, videoFlash: nil, thumbImage: thumbImage, images: image, type: .video, forPlatformSubType: .subTypeQQFriend)
+                    //微博
+//                    var latitude: Double = 0
+//                    var longitude: Double = 0
+//
+//                    shareParams.ssdkSetupSinaWeiboShareParams(byText: text, title: title, images: image,
+//                                                              video: url.absoluteString, url: url,
+//                                                              latitude: latitude, longitude: longitude,
+//                                                              objectID: nil, isShareToStory: true, type: .video)
+                    
+                    GTShare.share(withShareParams: shareParams)
+                case .自带UI分享:
+                    let title = "来自GTShare"
+                    let text = "GTShare"
+                    //                    let image = UIImage(named: "headerBg")
+                    let thumbImage = UIImage(named: "headerBg")
+                    let url = URL.init(string: "http://www.goingta.cn")
+                    let shareParams = NSMutableDictionary()
+                    
+                    
+                    //通用
+                    shareParams.ssdkSetupShareParams(byText: text, images: thumbImage, url: url, title: title, type: .auto)
+                    ShareSDK.showShareActionSheet(nil, items: nil, shareParams: shareParams) { (state, platformType, userData, contentEntity, error, end) in
+                        switch state {
+                        case .success:
+                            print("分享成功")
+                        case .cancel:
+                            print("取消")
+                        case .fail:
+                            GTPopup.showHint("分享失败")
+                        case .begin:
+                            print("begin")
+                        case .upload:
+                            print("upload")
+                        @unknown default:
+                            print("其他")
+                        }
+                    }
             }
         }
     }

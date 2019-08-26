@@ -32,6 +32,15 @@
 		273794B322F986EF00FE96CD /* SkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273794B222F986EF00FE96CD /* SkeletonViewController.swift */; };
 		273794B722F98A4E00FE96CD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273794B622F98A4E00FE96CD /* CollectionViewCell.swift */; };
 		27488BF62313ADBC0093D8C5 /* GTTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488BF52313ADBC0093D8C5 /* GTTimingFunction.swift */; };
+		27488BF92313B85E0093D8C5 /* GTShareConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488BF82313B85E0093D8C5 /* GTShareConfig.swift */; };
+		27488BFB2313B9000093D8C5 /* GTShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488BFA2313B9000093D8C5 /* GTShare.swift */; };
+		27488BFE2313BC810093D8C5 /* GTUIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488BFD2313BC810093D8C5 /* GTUIConfig.swift */; };
+		27488C002313BCDA0093D8C5 /* GTPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488BFF2313BCDA0093D8C5 /* GTPopup.swift */; };
+		27488C022313BD1C0093D8C5 /* GTVerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C012313BD1C0093D8C5 /* GTVerticalLabel.swift */; };
+		27488C052313BEBC0093D8C5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C042313BEBC0093D8C5 /* UIColor+Extension.swift */; };
+		27488C072313BEDD0093D8C5 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C062313BEDD0093D8C5 /* NSDate+Extension.swift */; };
+		27488C092313BF890093D8C5 /* GTShareGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C082313BF890093D8C5 /* GTShareGestureRecognizer.swift */; };
+		27488C0B2313BFA50093D8C5 /* GTShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27488C0A2313BFA50093D8C5 /* GTShareCell.swift */; };
 		278E852B22FA761E00484CF6 /* SkeletonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852A22FA761E00484CF6 /* SkeletonTableViewController.swift */; };
 		278E852D22FA768D00484CF6 /* CustomCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852C22FA768D00484CF6 /* CustomCell1.swift */; };
 		278E852F22FA76B500484CF6 /* HeaderVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E852E22FA76B500484CF6 /* HeaderVeiw.swift */; };
@@ -101,6 +110,15 @@
 		273794B222F986EF00FE96CD /* SkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonViewController.swift; sourceTree = "<group>"; };
 		273794B622F98A4E00FE96CD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		27488BF52313ADBC0093D8C5 /* GTTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTimingFunction.swift; sourceTree = "<group>"; };
+		27488BF82313B85E0093D8C5 /* GTShareConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTShareConfig.swift; sourceTree = "<group>"; };
+		27488BFA2313B9000093D8C5 /* GTShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTShare.swift; sourceTree = "<group>"; };
+		27488BFD2313BC810093D8C5 /* GTUIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTUIConfig.swift; sourceTree = "<group>"; };
+		27488BFF2313BCDA0093D8C5 /* GTPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTPopup.swift; sourceTree = "<group>"; };
+		27488C012313BD1C0093D8C5 /* GTVerticalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTVerticalLabel.swift; sourceTree = "<group>"; };
+		27488C042313BEBC0093D8C5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		27488C062313BEDD0093D8C5 /* NSDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		27488C082313BF890093D8C5 /* GTShareGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTShareGestureRecognizer.swift; sourceTree = "<group>"; };
+		27488C0A2313BFA50093D8C5 /* GTShareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTShareCell.swift; sourceTree = "<group>"; };
 		278E852A22FA761E00484CF6 /* SkeletonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTableViewController.swift; sourceTree = "<group>"; };
 		278E852C22FA768D00484CF6 /* CustomCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell1.swift; sourceTree = "<group>"; };
 		278E852E22FA76B500484CF6 /* HeaderVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVeiw.swift; sourceTree = "<group>"; };
@@ -200,6 +218,9 @@
 		271E81D221D1DD53009386E8 /* iOSJade */ = {
 			isa = PBXGroup;
 			children = (
+				27488C032313BE9E0093D8C5 /* Helper */,
+				27488BFC2313BC620093D8C5 /* Common */,
+				27488BF72313B7F70093D8C5 /* Share */,
 				27488BF42313ADAB0093D8C5 /* Animation */,
 				273794B122F986D700FE96CD /* VC */,
 				27FE058522A630E000DD9239 /* Thread */,
@@ -305,6 +326,36 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		27488BF72313B7F70093D8C5 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				27488BF82313B85E0093D8C5 /* GTShareConfig.swift */,
+				27488BFA2313B9000093D8C5 /* GTShare.swift */,
+				27488C082313BF890093D8C5 /* GTShareGestureRecognizer.swift */,
+				27488C0A2313BFA50093D8C5 /* GTShareCell.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		27488BFC2313BC620093D8C5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				27488BFD2313BC810093D8C5 /* GTUIConfig.swift */,
+				27488BFF2313BCDA0093D8C5 /* GTPopup.swift */,
+				27488C012313BD1C0093D8C5 /* GTVerticalLabel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		27488C032313BE9E0093D8C5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				27488C042313BEBC0093D8C5 /* UIColor+Extension.swift */,
+				27488C062313BEDD0093D8C5 /* NSDate+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		27FE058122A62F5F00DD9239 /* Runloop */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,6 +410,7 @@
 				271E81CD21D1DD53009386E8 /* Frameworks */,
 				271E81CE21D1DD53009386E8 /* Resources */,
 				74FA7AAB6F12E4C9F4BCC494 /* [CP] Embed Pods Frameworks */,
+				1C0B3D10B482F1C0ABC2D4D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -480,6 +532,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1C0B3D10B482F1C0ABC2D4D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSJade/Pods-iOSJade-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSJade/Pods-iOSJade-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSJade/Pods-iOSJade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		74FA7AAB6F12E4C9F4BCC494 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,14 +630,19 @@
 				272291B122AD20A900AEF31F /* CustomOperation.swift in Sources */,
 				271E821421D2570E009386E8 /* QQAppViewController.swift in Sources */,
 				272291D222AE4B6C00AEF31F /* ModelB.m in Sources */,
+				27488C052313BEBC0093D8C5 /* UIColor+Extension.swift in Sources */,
 				278E852F22FA76B500484CF6 /* HeaderVeiw.swift in Sources */,
 				271E81D621D1DD53009386E8 /* WKWebViewController.swift in Sources */,
+				27488C022313BD1C0093D8C5 /* GTVerticalLabel.swift in Sources */,
 				270BCF54229D35FD008F47C2 /* RuntimeObject.m in Sources */,
 				270BCF4B229D23C7008F47C2 /* MObject.swift in Sources */,
 				271E81D421D1DD53009386E8 /* AppDelegate.swift in Sources */,
+				27488BFE2313BC810093D8C5 /* GTUIConfig.swift in Sources */,
 				272291C322AE48A400AEF31F /* TestObj.m in Sources */,
+				27488C072313BEDD0093D8C5 /* NSDate+Extension.swift in Sources */,
 				27FE058022A627B900DD9239 /* RuntimeSuperObject.m in Sources */,
 				271E820321D1DEC7009386E8 /* UINavigationController+Extension.swift in Sources */,
+				27488C002313BCDA0093D8C5 /* GTPopup.swift in Sources */,
 				273794B722F98A4E00FE96CD /* CollectionViewCell.swift in Sources */,
 				271E821C21D335F0009386E8 /* GTANavigationBar.swift in Sources */,
 				272291CF22AE4A9700AEF31F /* ObjcA.m in Sources */,
@@ -576,11 +650,15 @@
 				271E820721D1DFA2009386E8 /* TableViewController.swift in Sources */,
 				271E822821D7796D009386E8 /* TabBarViewController.swift in Sources */,
 				27488BF62313ADBC0093D8C5 /* GTTimingFunction.swift in Sources */,
+				27488BFB2313B9000093D8C5 /* GTShare.swift in Sources */,
 				271A4B95229BC08E00C1AD2E /* NetworkViewController.swift in Sources */,
 				272291B522AE301500AEF31F /* TestViewController.m in Sources */,
 				278E852B22FA761E00484CF6 /* SkeletonTableViewController.swift in Sources */,
 				27FE058722A6310200DD9239 /* GCDDemo.swift in Sources */,
+				27488BF92313B85E0093D8C5 /* GTShareConfig.swift in Sources */,
 				27FE058422A62F8200DD9239 /* RunloopObject.m in Sources */,
+				27488C0B2313BFA50093D8C5 /* GTShareCell.swift in Sources */,
+				27488C092313BF890093D8C5 /* GTShareGestureRecognizer.swift in Sources */,
 				2716B5A3229BDF4C00EE27BC /* CALayerViewController.swift in Sources */,
 				272291B222AD20A900AEF31F /* Thread.swift in Sources */,
 				278E852D22FA768D00484CF6 /* CustomCell1.swift in Sources */,
@@ -761,15 +839,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QLCB8QSMBL;
+				DEVELOPMENT_TEAM = NHN8A752UN;
 				INFOPLIST_FILE = iOSJade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.iosJade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSJade/iOSJade-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -783,15 +863,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QLCB8QSMBL;
+				DEVELOPMENT_TEAM = NHN8A752UN;
 				INFOPLIST_FILE = iOSJade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.tl.iOSJade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goingta.iosJade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSJade/iOSJade-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
